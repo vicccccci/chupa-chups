@@ -1,0 +1,120 @@
+html {
+  max-width: 100%;
+}
+
+body {
+  background-image: url("https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  font-family: "PT Mono", monospace;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+}
+
+form {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 20px 10px;
+  border: none;
+  border-radius: 70px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+  background-color: #0f4336;
+  color: whitesmoke;
+  opacity: 0.7;
+  width: 70%;
+}
+
+.card.outline {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid #0f4336;
+  border-radius: 30px;
+}
+
+h1 {
+  display: block;
+  margin: 0 auto;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: large;
+  color: black;
+  display: block;
+}
+
+button {
+  position: relative;
+  background-color: #b4cad7;
+  border-radius: 70px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 15px 20px;
+  border: none;
+  color: #132238;
+}
+
+h3 {
+  font-size: 18px;
+  text-align: center;
+  display: block;
+}
+
+h4 {
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  margin-left: 0;
+}
+
+h5 {
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  margin-left: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+
+  font-size: 20px;
+}
+
+.enter-city {
+  background-color: #b4cad7;
+  opacity: 0.9;
+  border: 1px solid #194350;
+  flex: 1;
+}
+
+.days {
+  font-size: 11px;
+}
+
+.fa.fa-sun-o.biggericon {
+  font-size: 80px;
+  margin-bottom: 50px;
+}
+
+.week {
+  padding-bottom: 30px;
+}
+
+.temperature {
+  font-size: 40px;
+}
+
+.degrees a {
+  color: #0f4336;
+}
+
+#description {
+  text-transform: capitalize;
+}
