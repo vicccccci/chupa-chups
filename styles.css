@@ -87,6 +87,10 @@ ul {
   font-size: 20px;
 }
 
+small {
+  color: white;
+}
+
 .enter-city {
   background-color: #b4cad7;
   opacity: 0.9;
